@@ -1,0 +1,47 @@
+# Dependencies and build output
+node_modules/
+.next/
+out/
+build/
+dist/
+coverage/
+*.tsbuildinfo
+
+# Environment files and credentials; do not commit any .env file
+.env
+.env.*
+
+# Local tool state and logs
+.DS_Store
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.vercel/
+.turbo/
+
+# Local uploads and temporary demo files
+uploads/
+**/uploads/**
+.tmp/
+tmp/
+docs/demo/raw/
+video_*_analysis_*.md
+
+# Typst and Office temporary output
+.typst-cache/
+*.aux
+*.synctex.gz
+cv/.venv/
+cv/docx-review/
+cv/typst-project/*.pdf
+cv/typst-project/*.verify.json
+cv/typst-project/*.diagnostics.log
+cv/typst-project/*.json
+cv/typst-project/*-review/
+cv/.typst-content-manifest.json
+cv/.typst-build-plan.json
+
+# Internal planning and review drafts
+/plan.md
+/TODO.md
+/content-review.md
